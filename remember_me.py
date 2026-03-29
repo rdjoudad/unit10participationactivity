@@ -24,10 +24,10 @@ def greet_user():
     username = get_stored_username(path)
     if username:
         user_response = input(f"Are you {username}? (y/n)")
-        new_username = get_new_username(path)
         if user_response == "y":
             print(f"Hello, {username}! it's nice to see you again.")
         else:
+            username = get_new_username(path)
             print(f"Welcome, {username}! We'll be sure to remember you next time.")
     else:
         username = get_new_username(path)
