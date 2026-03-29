@@ -6,7 +6,7 @@ on a new line in the file.
 """
 from pathlib import Path
 
-path = Path("Unit10/guest_book.txt")
+path = Path("unit10participationactivity/guest_book.txt")
 
 response = ''
 guest_list = []
