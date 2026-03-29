@@ -15,6 +15,6 @@ while response != 'q':
     print("Please provide your name to add to the guestbook.")
     response = input("(Type q to quit): ")
     if response != 'q':
-        guest_list.append()
+        guest_list.append(response)
 
 path.write_text('\n'.join(guest_list))
