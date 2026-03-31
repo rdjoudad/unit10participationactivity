@@ -1,0 +1,6 @@
+"Why do we have to batch up all the names, then write to the file?"
+-It helps with performance and runs faster.
+"Could we write to the file one name at a time using path.write_text?"
+-Yes, but it is slower.
+"Why would we want to write one name at a time instead of batching them up?"
+-Low memory usage and easier to handle one small error at a time.
